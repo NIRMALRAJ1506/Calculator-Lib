@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\SpecFlowProjectCalc\\SpecFlowProjectCalc.csproj": {}
+  },
+  "projects": {
+    "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\CalculatorLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\CalculatorLib.csproj",
+        "projectName": "CalculatorLib",
+        "projectPath": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\CalculatorLib.csproj",
+        "packagesPath": "C:\\Users\\Nirmal Raj\\.nuget\\packages\\",
+        "outputPath": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nirmal Raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\SpecFlowProjectCalc\\SpecFlowProjectCalc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\SpecFlowProjectCalc\\SpecFlowProjectCalc.csproj",
+        "projectName": "SpecFlowProjectCalc",
+        "projectPath": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\SpecFlowProjectCalc\\SpecFlowProjectCalc.csproj",
+        "packagesPath": "C:\\Users\\Nirmal Raj\\.nuget\\packages\\",
+        "outputPath": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\SpecFlowProjectCalc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nirmal Raj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\CalculatorLib.csproj": {
+                "projectPath": "C:\\Application Testing Mphasis\\Day 1\\CalculatorLib\\CalculatorLib\\CalculatorLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
